@@ -19,8 +19,8 @@ const Sidebar = () => {
         <div className={`${expanded ? 'block' : 'hidden'} 
             bg-gradient-to-tr from-sky-900 to-sky-700
             w-3/4 md:w-60 h-full `}>
-            <div className='mt-8 ml-4 w-32'>
-                <img src='/ukc-logo-white.png' alt='logo' />
+            <div className=''>
+                <Image className='w-32 bg-cover h-auto ml-4 mt-8' width={100} height={50} src='/ukc-logo-white.png' alt='logo' />
             </div>
             <SidebarMenus data={applicantMenu} />
         </div>

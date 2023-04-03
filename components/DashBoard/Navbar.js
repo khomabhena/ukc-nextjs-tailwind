@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Navbar = () => {
@@ -6,7 +7,9 @@ const Navbar = () => {
         <div className='hidden md:block font-semibold text-slate-500 text-2xl'>Applicant Dashboard</div>
         <div className='flex gap-8 w-full md:w-auto justify-between'>
             <div className='flex items-center gap-4'>
-                <img className='h-10 w-10 bg-cover bg-slate-900 rounded-full' src='/ukc-favicon-color.png' alt='image'  />
+                <Image className='rounded-full w-8 h-8 md:w-10 md:h-10' 
+                    src="/ukc-favicon-color.png" 
+                    width={30} height={30} alt="image" />
                 <span className='fon font-medium text-slate-500'>Hi, Kholwani</span>
             </div>
             <button className='cursor-pointer border border-sky-500 
