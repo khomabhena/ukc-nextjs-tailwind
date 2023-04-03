@@ -12,7 +12,7 @@ const Sidebar = () => {
         if (typeof window !== 'undefined') {
             window.innerWidth >= 768 ? setExpanded(true) : setExpanded(false) 
         }
-    }, [])
+    }, [setExpanded])
 
   return (
     <div className='flex z-10 fixed h-full w-full top-0 left-0'>
