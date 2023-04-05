@@ -12,7 +12,7 @@ const DashBoardLayout = ({children}) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/ukc-favicon-white.png" />
       </Head>
-      <div className='flex min-h-screen bg-slate-200 relative'>
+      <div className='flex h-screen bg-slate-200 relative'>
         <Sidebar />
         <Container>
           {children}

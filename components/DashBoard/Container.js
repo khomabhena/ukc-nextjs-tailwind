@@ -6,7 +6,8 @@ const Container = ({children}) => {
   const {expanded} = useStateContext()
 
   return (
-    <div className={`absolute h-full w-full left-0 top-0 ${expanded ? 'md:pl-60' : 'md:pl-0'}`}>
+    <div className={`absolute h-screen top-0 w-full left-0
+       ${expanded ? 'md:pl-60' : 'md:pl-0'}`}>
         <Navbar />
         {children}
     </div>

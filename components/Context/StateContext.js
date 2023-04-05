@@ -5,6 +5,7 @@ const Context = createContext()
 export const StateContext = ({children}) => {
     const [expanded, setExpanded] = useState(false)
     const [windowSize, setWindowSize] = useState(0)
+    const [activeLink, setActiveLink] = useState('/applicant/profile')
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
@@ -14,7 +15,7 @@ export const StateContext = ({children}) => {
 
   return (
     <Context.Provider
-        value={{expanded, setExpanded, windowSize}}
+        value={{expanded, setExpanded, activeLink, setActiveLink, windowSize}}
     >{children}</Context.Provider>  
   )
 }

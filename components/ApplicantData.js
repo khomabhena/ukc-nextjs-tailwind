@@ -9,31 +9,31 @@ export const applicantMenu = [
     {
         name: 'Profile',
         icon: <BsFillPersonFill />,
-        link: ''
+        link: '/applicant/profile'
     },
     {
         name: 'Jobs',
         icon: <FaPills />,
-        link: ''
+        link: '/applicant/jobs'
     },
     {
         name: 'Applications',
         icon: <TfiWrite />,
-        link: ''
+        link: '/applicant/applications'
     },
     {
         name: 'Update',
         icon: <MdUpdate />,
-        link: ''
+        link: '/applicant/update'
     },
     {
         name: 'Qualifications',
         icon: <FaGraduationCap />,
-        link: ''
+        link: '/applicant/qualifications'
     },
     {
         name: 'Experience',
         icon: <FaUserNurse />,
-        link: ''
+        link: '/applicant/experience'
     },
 ]

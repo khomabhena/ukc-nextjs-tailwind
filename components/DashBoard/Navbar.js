@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='hidden md:block font-semibold text-slate-500 text-2xl'>Applicant Dashboard</div>
         <div className='flex gap-8 w-full md:w-auto justify-between'>
             <div className='flex items-center gap-4'>
-                <Image className='rounded-full w-8 h-8 md:w-10 md:h-10' 
+                <Image className='rounded-full w-6 h-6 md:w-8 md:h-8 ring-offset-2 ring-2' 
                     src="/ukc-favicon-color.png" 
                     width={30} height={30} alt="image" />
                 <span className='fon font-medium text-slate-500'>Hi, Kholwani</span>
